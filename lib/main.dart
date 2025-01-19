@@ -70,7 +70,7 @@ class _HomePageState extends State<HomePage> {
                     child: Container(
                       alignment: Alignment.center,
                       decoration: BoxDecoration(
-                        color: const Colors.red.shade200,
+                        color: Colors.red,
                         borderRadius: BorderRadius.circular(20),
                         border: Border.all(
                           color: Colors.black,
