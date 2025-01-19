@@ -29,7 +29,7 @@ class _CalculadoraState extends State<Calculadora> {
   void _calcularResultado() {
     try {
       _resultado = _expressao.split('=').last;
-      _resultado = _avaliarExpressao(_expressao).toString();
+      _resultado = _avaliarExpressao(_resultado).toString();
     } catch (e) {
       _resultado = 'Não é possivel calcular';
     }
